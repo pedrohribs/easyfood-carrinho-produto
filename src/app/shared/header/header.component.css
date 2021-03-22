@@ -1,0 +1,14 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.mat-toolbar {
+    background: #ffffff;
+    color: rgb(248, 0, 0);
+}
+.mat-menu-item {
+    background: #ffffff;
+    color: rgb(248, 0, 0);
+}
+.header {
+    margin-bottom: 50px;
+}
