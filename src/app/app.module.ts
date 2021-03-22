@@ -12,6 +12,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
+import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,7 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatIconModule,
     MatMenuModule,
     MatCardModule,
-    MatTabsModule
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
